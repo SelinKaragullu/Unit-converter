@@ -1,9 +1,8 @@
 body {
-        margin-left: auto;
+    display: block;
+     margin-left: auto;
   margin-right: auto;
- margin-top: 0;
-
-    }
+     }
 
 
 .container {
@@ -14,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
 align-items: center;
-
+}
 
 
 .custom-input {
@@ -22,13 +21,11 @@ align-items: center;
   color: white;
   font-family: Inter;
 font-weight: 800;
-font-style: Extra Bold;
 font-size: 58px;
-leading-trim: NONE;
 line-height: 24.39px;
 letter-spacing: 0%;
 text-align: center;
-   width: 75px;
+   width: 100px;
    border: 2px solid #B295FF;
    border-radius: 5px;
    padding:10px;
@@ -58,15 +55,15 @@ line-height: 38px;
 letter-spacing: -3%;
 text-align: center;
 margin: 33px 0 30px 0;
+
     }
     
 
     
     button {
-        font-family: Inter;
+font-family: Inter;
 font-weight: 500;
 font-size: 16px;
-leading-trim: NONE;
 line-height: 24px;
 letter-spacing: 0%;
 background-color: #FFFFFF;
@@ -75,22 +72,19 @@ margin: 27px 0 34px 0;
 padding: 9px 27px;
 border: none;
 border-radius: 5px;
-
-
-
-
-
-
-
     }
     
+    button:hover {
+        background-color: #f0f0f0;
+      }
+
+
     h5 {
    
    font-family: Inter;
 font-weight: 600;
 font-style: Semi Bold;
 font-size: 20px;
-leading-trim: NONE;
 line-height: 20px;
 letter-spacing: 0%;
 text-align: center;
@@ -106,7 +100,6 @@ margin-bottom: 9px;
     font-family: Inter;
 font-weight: 400;
 font-size: 14px;
-leading-trim: NONE;
 line-height: 20px;
 letter-spacing: 0%;
 text-align: center;
