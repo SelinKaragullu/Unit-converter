@@ -1,135 +1,114 @@
 body {
-    display: block;
-     margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
-     }
-
+  margin-top: 0;
+}
 
 .container {
-    background: #6943FF;
-    color: #FFFFFF;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-align-items: center;
+  background: #6943ff;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .custom-input {
-  background: #6943FF;
+  background: #6943ff;
   color: white;
   font-family: Inter;
-font-weight: 800;
-font-size: 58px;
-line-height: 24.39px;
-letter-spacing: 0%;
-text-align: center;
-   width: 100px;
-   border: 2px solid #B295FF;
-   border-radius: 5px;
-   padding:10px;
+  font-weight: 800;
+  font-style: Extra Bold;
+  font-size: 58px;
+  line-height: 24.39px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 120px;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  padding: 6px 10px;
 }
-    
-    #number {
-border: 2px solid #B295FF;
-text-align: center;
-font-family: Inter;
-font-weight: 800;
-width: 100px;
-font-size: 58px;
-line-height: 24.39px;
-letter-spacing: 0%;
-color: #FFFFFF;
-padding: 30px;
 
-    }
-       
-    
-    h3 {
-        font-family: Inter;
-font-weight: 800;
-font-style: Extra Bold;
-font-size: 28px;
-line-height: 38px;
-letter-spacing: -3%;
-text-align: center;
-margin: 33px 0 30px 0;
+#number {
+  border: 2px solid #b295ff;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 800;
+  width: 100px;
+  font-size: 58px;
+  line-height: 24.39px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding: 30px;
+}
 
-    }
-    
+h3 {
+  font-family: Inter;
+  font-weight: 800;
+  font-style: Extra Bold;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -3%;
+  text-align: center;
+  margin: 33px 0 30px 0;
+}
 
-    
-    button {
-font-family: Inter;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0%;
-background-color: #FFFFFF;
-box-shadow: 0px 1px 2px 0px #0000000D;
-margin: 27px 0 34px 0;
-padding: 9px 27px;
-border: none;
-border-radius: 5px;
-    }
-    
-    button:hover {
-        background-color: #f0f0f0;
-      }
+button {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  margin: 27px 0 34px 0;
+  padding: 9px 27px;
+  border: none;
+  border-radius: 5px;
+}
 
+h5 {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #5a537b;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 9px;
+}
 
-    h5 {
-   
-   font-family: Inter;
-font-weight: 600;
-font-style: Semi Bold;
-font-size: 20px;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: center;
-color: #5A537B;
-padding: 0;
-margin: 0;
-margin-bottom: 9px;
+p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #353535;
+  margin: 0;
+  padding-top: 9px;
+}
 
-    }
-    
-    
-    p {
-    font-family: Inter;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: center;
-color: #353535;
-margin: 0;
-padding-top: 9px;
-
- 
- 
-    }
-    
- .converter-bg {
-  background: #F4F4F4;
+.converter-bg {
+  background: #f4f4f4;
   overflow: hidden;
-
-  
 }
-           
+
 .converter {
-   
-    background-color: #FFFFFF;
-       width: auto;
-      margin-left: auto;
+  background-color: #ffffff;
+  width: auto;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 0;
   padding: 31px 77px;
- margin: 23px 25px 23px 25px;
+  margin: 23px 25px 23px 25px;
 }
 
 #first-converter {
- margin: 36px 25px 23px 25px;
+  margin: 36px 25px 23px 25px;
 }
-
