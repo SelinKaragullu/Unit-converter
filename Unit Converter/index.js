@@ -16,13 +16,14 @@ const meter = 3.281
 const liter = 0.264 
 const kilogram = 2.205  
 
-// CodeRabbit comment test 2
 
 btn.addEventListener ("click", function () {
         
-    lengthEl.textContent = `${inputValue} meters = ${(inputValue) * 3.281} feet | ${inputValue} feet = ${((inputValue)/3.281).toFixed(3)} meters`
-    
-    volumeEl.textContent = `${inputValue} liters = ${(inputValue) * 0.264} gallons | ${inputValue} gallons = ${((inputValue)/0.264).toFixed(3)} liters`
-    
-     massEl.textContent = `${inputValue} kilos = ${(inputValue) * 2.205} pounds | ${inputValue} pounds = ${((inputValue) / 2.205).toFixed(3)} kilos` 
+    const inputValue = Number(value.value);
+
+lengthEl.textContent = `${inputValue} meters = ${(inputValue * meter).toFixed(3)} feet | ${inputValue} feet = ${(inputValue / meter).toFixed(3)} meters`
+
+volumeEl.textContent = `${inputValue} liters = ${(inputValue * liter).toFixed(3)} gallons | ${inputValue} gallons = ${(inputValue / liter).toFixed(3)} liters`
+
+massEl.textContent = `${inputValue} kilos = ${(inputValue * kilogram).toFixed(3)} pounds | ${inputValue} pounds = ${(inputValue / kilogram).toFixed(3)} kilos`
 })
